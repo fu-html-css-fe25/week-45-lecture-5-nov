@@ -337,14 +337,20 @@ body {
                 font-size: 1.25rem;
             }
 
-            .button > i {
-                padding-right: 1rem;
-                transition: all .3s ease;
+            .start-button-group {
+                display: flex;
+                gap: .5rem;
+                
+                .button > i {
+                    padding-right: 1rem;
+                    transition: all .3s ease;
+                }
+    
+                .button:hover > i {
+                    transform: translateX(.5rem);
+                }
             }
 
-            .button:hover > i {
-                transform: translateX(.5rem);
-            }
         }
     }
 }
